@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.stopwatch {
+  text-align: center;
+}
+
+.display {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  font-size: 1em;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.controls button#startPause {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.controls button#startPause:hover {
+  background-color: #45a049;
+}
+
+.controls button#lapReset {
+  background-color: #008CBA;
+  color: white;
+}
+
+.controls button#lapReset:hover {
+  background-color: #0077A3;
+}
+
+.laps {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lap-item {
+  margin: 5px;
+}
